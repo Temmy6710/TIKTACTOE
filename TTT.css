@@ -55,12 +55,12 @@ body{
     cursor: pointer;
 }
 
-@media (max-width:550px){
+@media (max-width:900px){
     #game{
         width: 80%;
     }
 }
-@media (max-width:400px){
+@media (max-width:500px){
     #game{
         width: 100%;
     }
