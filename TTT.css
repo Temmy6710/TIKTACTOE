@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(184, 184, 184);
+}
+#game{
+    background: url(./aron-visuals-LSFuPFE9vKE-unsplash.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    padding: 2.5% 0;
+    margin: auto;
+    height: auto;
+}
+#screen{
+    margin:auto;
+    width: 80%;
+    padding: 15px 20px;
+    background-color: rgba(255, 255, 255, 0.534);
+    text-align: center;
+}
+#screen h1{
+    margin: 8px;
+}
+#print{
+    font-size: 20px;
+    height: 20px;
+    color: rgb(255, 0, 0);
+}
+#screen #rules{
+    border: 1px dotted black;
+    margin:auto;
+}
+#screen button{
+    background: transparent;
+
+}
+#row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+#row button{
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: 30px;
+}
+#row button:hover{
+    border: 1px solid rgb(81, 81, 81);
+}
+#reset{
+    width: auto;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
